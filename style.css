@@ -1,0 +1,208 @@
+body{
+    position: relative;
+    width: 1330px;
+    height: 5020px;
+    background: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 350px;
+    display: block;
+}
+.top{
+    display: block;
+}
+#img-nombre{
+    float: left;
+    margin: 10px 10px 0px 150px;
+}
+#nombre{
+    float: left;
+    margin: 10px 10px 0px 10px;
+    font-size: 15px;
+}
+#botonera{
+    float: right;
+    margin-right: 150px;
+}
+.botones-principales{
+    border: none;
+    background-color: #F5F5F5;
+}
+.botones-principales a{
+    text-decoration: none;
+    color: #464646;
+}
+#descripcion{
+    clear: both;
+    float: left;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#perfil p{
+    float: left;
+    margin-left: 150px;
+    width: 50%;
+    margin-top: 0;
+}
+#img-perfil{
+    width: 15%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 20px 200px 0px 100px;
+}
+#botonera-red{
+    clear: both;
+    float: left;
+    margin-left: 150px;
+}
+.botones-redes{
+    border: none;
+    background-color: #F5F5F5;
+    margin-left: 5px;
+}
+.botones-redes a{
+    text-decoration: none;
+    color: #464646;
+}
+.principales{
+    height: 500px;
+}
+#sec-sobremi{
+    background: #EAF2FD;
+}
+#sobre-mi{
+    padding: 50px 150px;
+}
+#sobre-mi p{
+    width: 80%;
+}
+#sec-skilhob{
+    text-align: center;
+}
+#skills{
+    height: 50%;
+}
+#skill-principal{
+    margin-left: 150px;
+}
+.skill{
+    float: left;
+    margin-left: 20px;
+    background: white;
+    width: 150px;
+    height: 150px;
+}
+.skill img,.hobbie img{
+    float: left;
+    margin: 80px 0 0 10px;
+    width: 20px;
+    height: 20px;
+}
+.skill p,.hobbie p{
+    clear: left;
+    float: left;
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#hobbies{
+    height: 50%;
+}
+#hobbie-principal{
+    margin-left: 150px;
+}
+.hobbie{
+    float: left;
+    margin-left: 20px;
+    background: white;
+    width: 150px;
+    height: 150px;
+}
+#sec-formacion{
+    background: #EAF2FD;
+}
+#formacion h2{
+    text-align: center;
+    padding-top: 100px;
+}
+.formaciones{
+    float: left;
+    margin-left: 10px;
+    background: white;
+    width: 250px;
+    height: 270px;
+}
+.formaciones h4{
+    text-align: center;
+}
+.formaciones img{
+    width: 60%;
+    height: 50%;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+.formaciones p{
+    font-weight: bold;
+    font-size: 13px;
+    margin: 10px 0 0 10px;
+}
+#experiencias{
+    height: 2270px;
+}
+#proyectos h2{
+    text-align: center;
+}
+#proyectos img{
+    margin-top: 50px;
+    width: 900px;
+    height: 500px
+}
+.proyecto{
+    clear: left;
+    height: 25%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+#tienda,#portafolio{
+    margin-right: 210px;
+}
+
+.proyecto a{
+    text-decoration: none;
+    color: black;
+}
+#contacto{
+    background:  #EAF2FD;
+    height: 700px;
+}
+#contacto h2{
+    padding-top: 40px;
+}
+#img-contacto{
+    float: left;
+    margin: 40px 20px 30px 30px;
+}
+form{
+    padding-top: 30px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
