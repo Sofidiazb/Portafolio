@@ -206,3 +206,237 @@ footer{
     text-align: center;
     font-weight: bold;
 }
+/*TABLETS*/
+@media all and (min-width: 600px) and (max-width:1023px){
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        height: 400px;
+    }
+    #img-nombre{
+        margin: 10px 10px 10px 20px;
+    }
+    #botonera{
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    #descripcion{
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    #perfil p{
+        margin-left: 20px;
+    }
+    #img-perfil{
+        width: 25%;
+        height: 20%;
+        border-radius: 100%;
+        margin: 50px 50px 0px 100px;
+    }
+    #botonera-red{
+        margin-left: 20px;
+    }
+    .principales{
+        height: 400px;
+    }
+    #sobre-mi{
+        padding: 50px 20px;
+    }
+    #sobre-mi p{
+        width: 100%;
+    }
+    #sec-skilhob{
+        height: 400px;
+    }
+    #skill-principal{
+        margin-left: 20px;
+    }
+    .skill{
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+    }
+    .skill img,.hobbie img{
+        margin: 20px 0 0 10px;
+    }
+    #hobbie-principal{
+        margin-left: 20px;
+    }
+    .hobbie{
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+    }
+    #sec-formacion{
+        height: 720px;
+    }
+    #formacion h2{
+        padding-top: 30px;
+    }
+    .formaciones{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 230px;
+        height: 300px;
+    }
+    .formaciones img{
+        width: 50%;
+        height: 40%;
+        margin-left: 50px;
+    }
+    .formaciones p{
+        font-weight: bold;
+        font-size: 13px;
+        margin: 10px 0 0 10px;
+    }
+    #experiencias{
+        height: 1450px;
+    }
+    #proyectos img{
+        margin-top: 50px;
+        width: 500px;
+        height: 300px
+    }
+    .proyecto{
+        height: 20%;
+        width: 20%;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+    #tienda,#portafolio{
+        margin-right: 20px;
+    }
+    #contacto{
+        height: 700px;
+    }
+    #img-contacto{
+        margin: 40px 10px 20px 10px;
+        width: 40%;
+        height: 85%;
+    }
+    form{
+        padding-top: 10px;
+    }
+    .input-padron{
+        width: 40%;
+    }
+    .enviar{
+        margin-left: 350px;
+    }
+
+}
+
+/*MOVILES*/
+
+@media all and (max-width: 599px){
+
+    body{
+        width: 100%;
+    }
+    header{
+        height: 350px;
+        width: 100%;
+    }
+    #img-nombre{
+        margin: 10px 10px 10px 0px;
+    }
+    #botonera{
+        margin-right: 0px;
+    }
+    #descripcion{
+        font-size: 15px;
+        width: 60%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #perfil p{
+        margin-left: 0px;
+        width: 60%;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    #img-perfil{
+        width: 35%;
+        height: 30%;
+        border-radius: 100%;
+        margin: 20px 0px 0px 15px;
+    }
+    #botonera-red{
+        margin-left: 0px;
+    }
+    #sobre-mi{
+        padding: 10px 0px;
+    }
+    #sobre-mi p{
+        width: 100%;
+    }
+    #sec-skilhob{
+        height: 900px;
+    }
+    #skill-principal{
+        margin-left: 0px;
+    }
+    .skill{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 120px;
+        height: 120px;
+    }
+    .skill img,.hobbie img{
+        margin: 30px 0 0 10px;
+    }
+    #hobbie-principal{
+        margin-left: 0px;
+    }
+    .hobbie{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 120px;
+        height: 120px;
+    }
+    #sec-formacion{
+        height: 1500px;
+    }
+    #formacion h2{
+        padding-top: 20px;
+    }
+    .formaciones{
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 250px;
+        height: 270px;
+    }
+    #experiencias{
+        height: 1650px;
+    }
+    #proyectos img{
+        width: 100%;
+        height: 60%;
+    }
+    .proyecto{
+        height: 20%;
+        width: 70%;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    #tienda,#portafolio{
+        margin-right: 0px;
+    }
+    #contacto{
+        height: 720px;
+    }
+    #contacto h2{
+        padding-top: 20px;
+    }
+    #img-contacto{
+        display: none;
+    }
+    .input-padron{
+        width: 70%;
+    }
+
+}
+
