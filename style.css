@@ -359,10 +359,10 @@ footer{
         font-size: 10px;
     }
     #img-perfil{
-        width: 35%;
-        height: 30%;
+        width: 20%;
+        height: 15%;
         border-radius: 100%;
-        margin: 20px 0px 0px 15px;
+        margin: 5px 0px 0px 5px;
     }
     #botonera-red{
         margin-left: 0px;
@@ -405,12 +405,12 @@ footer{
     }
     .formaciones{
         margin-top: 10px;
-        margin-left: 40px;
+        margin-left: 10%;
         width: 250px;
         height: 270px;
     }
     #experiencias{
-        height: 1650px;
+        height: 1820px;
     }
     #proyectos img{
         width: 100%;
