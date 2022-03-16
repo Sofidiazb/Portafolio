@@ -180,18 +180,18 @@
 
                     <form>
                         <label for="nombreapellido">Nombre y Apellido</label>
-                        <input type="text" id="nombreapellido" class="input-padron" required>
+                        <input type="text" id="nombreapellido" class="input-padron" required maxlength="50">
         
                         <label for="correoelectronico">Correo Electrónico</label>
                         <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
         
                         <label for="asunto">Asunto</label>
-                        <input type="text" id="asunto" class="input-padron" required>
+                        <input type="text" id="asunto" class="input-padron" required maxlength="50">
         
                         <label for="mensaje">Mensaje</label>
-                        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required maxlength="300"></textarea>
+                        <input type="submit" value="Enviar formulario" class="enviar">
                     </form>
-                    <input type="submit" value="Enviar formulario" class="enviar">
 
                 </div>
             </section>
